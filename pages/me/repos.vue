@@ -6,7 +6,7 @@ const { $prepareMeta } = useNuxtApp()
 const { data: repos, status } = await useLazyAsyncData(
   "repos",
   async () => {
-    const filter = ["yipfram"]
+    const filter = ["yipfram", "website"]
 
     const repos = await $fetch<Repository[]>(
       "https://api.github.com/users/yipfram/repos?per_page=100",
@@ -17,7 +17,7 @@ const { data: repos, status } = await useLazyAsyncData(
       ?.sort((a, b) => b?.stargazers_count - a?.stargazers_count)
   },
   {
-    server: false,
+    default: () => [],
   },
 )
 
@@ -32,27 +32,35 @@ useHead({
 
 <template>
   <PageLayout title="Repositories" description="My public projects on GitHub.">
-    <div v-if="status === 'pending'" class="grid gap-4 md:grid-cols-2">
-      <SkeletonLoader v-for="i in 9" :key="`skeleton-${i}`" type="repository" />
-    </div>
+    <ClientOnly>
+      <div v-if="status === 'pending'" class="grid gap-4 md:grid-cols-2">
+        <SkeletonLoader v-for="i in 9" :key="`skeleton-${i}`" type="repository" />
+      </div>
 
-    <div v-else class="grid gap-4 md:grid-cols-2">
-      <SmartLink
-        v-for="(repo, index) in repos"
-        :key="`repo-${index}`"
-        :href="repo.html_url"
-        blank
-      >
-        <CardRepository
-          :name="repo.name"
-          :language="repo.language"
-          :stars="repo.stargazers_count"
-          :description="repo.description"
-          :license="repo.license && repo.license.spdx_id"
-          :top="index === 0"
-          class="h-full"
-        />
-      </SmartLink>
-    </div>
+      <div v-else class="grid gap-4 md:grid-cols-2">
+        <SmartLink
+          v-for="(repo, index) in repos"
+          :key="`repo-${index}`"
+          :href="repo.html_url"
+          blank
+        >
+          <CardRepository
+            :name="repo.name"
+            :language="repo.language"
+            :stars="repo.stargazers_count"
+            :description="repo.description"
+            :license="repo.license && repo.license.spdx_id"
+            :top="index === 0"
+            class="h-full"
+          />
+        </SmartLink>
+      </div>
+
+      <template #fallback>
+        <div class="grid gap-4 md:grid-cols-2">
+          <SkeletonLoader v-for="i in 9" :key="`skeleton-${i}`" type="repository" />
+        </div>
+      </template>
+    </ClientOnly>
   </PageLayout>
 </template>
