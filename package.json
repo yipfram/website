@@ -2,23 +2,23 @@
   "private": true,
   "license": "MIT",
   "version": "7.0.0",
-  "homepage": "https://eggsy.xyz",
-  "readme": "https://github.com/eggsy/website#readme",
+  "homepage": "https://romain-rochas.fr",
+  "readme": "https://github.com/yipfram/website#readme",
   "engines": {
     "node": ">=16.9"
   },
   "author": {
-    "name": "Abdulbaki Dursun",
-    "email": "eggsydev@gmail.com",
-    "url": "https://eggsy.xyz"
+    "name": "Romain ROCHAS",
+    "email": "romainrochas69@gmail.com",
+    "url": "https://romain-rochas.fr"
   },
   "bugs": {
-    "email": "eggsydev@gmail.com",
-    "url": "https://github.com/eggsy/website/issues"
+    "email": "romainrochas69@gmail.com",
+    "url": "https://github.com/yipfram/website/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/eggsy/website.git"
+    "url": "https://github.com/yipfram/website.git"
   },
   "funding": [
     {

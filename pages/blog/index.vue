@@ -16,9 +16,9 @@ const { data: posts, status } = await useLazyAsyncData("posts", () =>
 useHead({
   title: "Blog",
   meta: $prepareMeta({
-    title: "EGGSY's Blog",
+    title: "Romain's Blog",
     description:
-      "Yazılım, teknoloji, günlük hayat ve maceralarımla ilgili yazdığım yazılar.",
+      "Technology, business, and anything else I'm interested in :)",
   }),
 })
 

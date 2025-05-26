@@ -6,10 +6,10 @@ const { $prepareMeta } = useNuxtApp()
 const { data: repos, status } = await useLazyAsyncData(
   "repos",
   async () => {
-    const filter = ["eggsy", "DBM", "eggsywashere.github.io"]
+    const filter = ["yipfram"]
 
     const repos = await $fetch<Repository[]>(
-      "https://api.github.com/users/eggsy/repos?per_page=100",
+      "https://api.github.com/users/yipfram/repos?per_page=100",
     )
 
     return repos

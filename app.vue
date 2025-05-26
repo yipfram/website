@@ -2,7 +2,7 @@
 const colorMode = useColorMode()
 
 useHead(() => {
-  let string = "eggsy.xyz"
+  let string = "romain-rochas.fr"
 
   return {
     titleTemplate: `%s - ${string}`,

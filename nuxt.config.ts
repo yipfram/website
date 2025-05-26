@@ -9,7 +9,7 @@ import { getBlogPosts } from "./hooks/scripts/getBlogPosts"
 
 export default defineNuxtConfig({
   nitro: {
-    preset: "netlify",
+    preset: "vercel",
   },
 
   app: {
@@ -120,13 +120,9 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       social: {
-        twitter: "https://twitter.com/eggsydev/",
-        github: "https://github.com/eggsy/",
-        linkedIn: "https://linkedin.com/in/abdulbaki-dursun",
-        email: "eggsydev@gmail.com",
-      },
-      sponsor: {
-        github: "https://github.com/sponsors/eggsy",
+        github: "https://github.com/yipfram/",
+        linkedIn: "https://linkedin.com/in/romain-rochas",
+        email: "romainrochas69@gmail.com",
       },
       isDev: process.env.NODE_ENV === "development",
     },

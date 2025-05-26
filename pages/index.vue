@@ -91,15 +91,15 @@ useHead({
                   src="/assets/images/memoji.png"
                   class="object-cover h-7 w-7"
                 />
-                Baki</span
+                Romain</span
               >
-              a
+              , a
             </h1>
 
             <h1
               class="font-semibold text-center text-5xl text-black/90 dark:text-white/90 md:text-6xl"
             >
-              freelance web developer
+              French business student
             </h1>
           </div>
         </div>
@@ -110,9 +110,9 @@ useHead({
           <Icon
             v-for="item in [
               { name: 'TypeScript', icon: 'devicon:typescript' },
-              { name: 'Vue.js', icon: 'devicon:vuejs' },
               { name: 'React.js', icon: 'devicon:react' },
               { name: 'HTML5', icon: 'devicon:html5' },
+              { name: 'Linux', icon: 'devicon:linux' },
               { name: 'Tailwind CSS', icon: 'devicon:tailwindcss' },
               { name: 'Node.js', icon: 'devicon:nodejs' },
             ]"
