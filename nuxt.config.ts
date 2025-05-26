@@ -119,6 +119,8 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     public: {
+      posthogPublicKey: 'phc_PUpW2FW5OJurpO4Fs6t79JJGgMqcffHFPpta72qrsH',
+      posthogHost: 'https://eu.i.posthog.com',
       social: {
         github: "https://github.com/yipfram/",
         linkedIn: "https://linkedin.com/in/romain-rochas",
