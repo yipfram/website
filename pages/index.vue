@@ -11,7 +11,7 @@ const cards = [
     icon: "line-md:cog",
   },
   {
-    title: "Repos",
+    title: "Code",
     href: "/me/repos",
     icon: "line-md:github",
   },
