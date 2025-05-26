@@ -87,11 +87,47 @@ useHead({
             </h1>
 
             <h1
-              class="font-semibold text-center text-5xl text-black/90 dark:text-white/90 md:text-6xl"
+              class="font-semibold text-center text-5xl text-black/90 dark:text-white/90 md:text-6xl mt-10"
             >
               French business student
             </h1>
           </div>
+        </div>
+
+        <div class="mt-10">
+          <a href="https://linkedin.com/in/romain-rochas" target="_blank" rel="noopener noreferrer">
+            <h1
+              class="font-semibold text-center text-lg text-black/50 dark:text-white/50 md:text-xl"
+            >
+              Studying @
+              <span class="group relative bg-gradient-to-r from-zinc-200 to-zinc-300 dark:from-zinc-800 dark:to-zinc-700 rounded-full align-middle py-3 pl-4 pr-5 gap-2 inline-flex items-center w-max font-medium transition-all duration-300 hover:shadow-lg hover:shadow-red-500/20 dark:hover:shadow-red-400/20 hover:scale-105 cursor-pointer">
+                <!-- Animated gradient border -->
+                <div class="absolute inset-0 rounded-full bg-gradient-to-r from-red-500 via-orange-500 to-red-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300 -z-10 blur-sm"></div>
+
+                <!-- Logo container with hover effects -->
+                <div class="relative overflow-hidden rounded-md">
+                  <SmartImage
+                    src="/assets/images/school/emlyon-logo.svg"
+                    class="object-cover h-10 w-10 transition-all duration-300 group-hover:scale-110 group-hover:rotate-3"
+                    alt="Emlyon Business School"
+                  />
+                  <!-- Shine effect on hover -->
+                  <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700"></div>
+                </div>
+
+                <!-- School name with typing animation -->
+                <span class="text-sm font-semibold text-black/70 dark:text-white/70 group-hover:text-red-600 dark:group-hover:text-white transition-colors duration-300">
+                  Emlyon
+                </span>
+
+                <!-- Study year indicator -->
+                <div class="flex items-center gap-1">
+                  <div class="w-1.5 h-1.5 bg-red-500 rounded-full animate-pulse"></div>
+                  <span class="text-xs text-black/50 dark:text-white/50 font-medium">M2</span>
+                </div>
+              </span>
+            </h1>
+          </a>
         </div>
 
         <div
