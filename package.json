@@ -2,7 +2,7 @@
   "private": true,
   "license": "MIT",
   "version": "7.0.0",
-  "homepage": "https://romain-rochas.fr",
+  "homepage": "https://rrchs.fr",
   "readme": "https://github.com/yipfram/website#readme",
   "engines": {
     "node": ">=16.9"
@@ -10,7 +10,7 @@
   "author": {
     "name": "Romain ROCHAS",
     "email": "romainrochas69@gmail.com",
-    "url": "https://romain-rochas.fr"
+    "url": "https://rrchs.fr"
   },
   "bugs": {
     "email": "romainrochas69@gmail.com",

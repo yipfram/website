@@ -11,19 +11,9 @@ const cards = [
     icon: "line-md:cog",
   },
   {
-    title: "Donate",
-    href: "/donate",
-    icon: "line-md:heart-filled-half",
-  },
-  {
     title: "Repos",
     href: "/me/repos",
     icon: "line-md:github",
-  },
-  {
-    title: "Songs",
-    href: "/me/songs",
-    icon: "line-md:volume-high-filled",
   },
   {
     title: "Contact",
@@ -54,7 +44,7 @@ useHead({
 
       <div class="hidden md:flex flex-col gap-4 w-2/12 z-10">
         <Card
-          v-for="(card, index) in cards.slice(0, 3)"
+          v-for="(card, index) in cards.slice(0, 2)"
           :key="`card-ml-${index}`"
           :title="card.title"
           :href="card.href"
@@ -93,7 +83,7 @@ useHead({
                 />
                 Romain</span
               >
-              , a
+              a
             </h1>
 
             <h1
@@ -132,7 +122,7 @@ useHead({
 
       <div class="hidden md:flex flex-col gap-4 w-2/12 z-10">
         <Card
-          v-for="(card, index) in cards.slice(3, 6)"
+          v-for="(card, index) in cards.slice(2, 6)"
           :key="`card-mr-${index}`"
           :title="card.title"
           :href="card.href"
