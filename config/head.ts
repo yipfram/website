@@ -1,10 +1,11 @@
 /* Define constants */
+// [ ] Add image here :)
 const image = "https://eggsy.xyz/icon.png"
 const description =
-  "Professional JavaScript developer from Turkey specializing in React.js, Vue.js, TypeScript, Node.js, and Flutter. Passionate about crafting innovative software solutions and continuously improving programming skills."
+  "Romain ROCHAS - Business School student passionate about technologies and entrepreneurship. Curious."
 
 const head = {
-  title: "eggsy.xyz",
+  title: "rrchs.fr",
   meta: [
     { charset: "utf-8" },
     { name: "viewport", content: "width=device-width, initial-scale=1" },
@@ -20,19 +21,9 @@ const head = {
       content: "summary",
     },
     {
-      hid: "twitter:site",
-      name: "twitter:site",
-      content: "@eggsydev",
-    },
-    {
-      hid: "twitter:creator",
-      name: "twitter:creator",
-      content: "@eggsydev",
-    },
-    {
       hid: "twitter:title",
       name: "twitter:title",
-      content: "eggsy.xyz",
+      content: "rrchs.fr",
     },
     {
       hid: "twitter:description",
@@ -53,7 +44,7 @@ const head = {
     {
       hid: "og:site_name",
       name: "og:site_name",
-      content: "eggsy.xyz",
+      content: "rrchs.fr",
     },
     {
       hid: "og:description",
