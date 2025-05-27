@@ -2,7 +2,7 @@
 const viewed = ref(true)
 
 onMounted(() => {
-  viewed.value = Boolean(localStorage.getItem("sponsor-popup-viewed")) || false
+  viewed.value = Boolean(localStorage.getItem("sponsor-popup-viewed")) || true
 })
 
 const dismissMessage = () => {
