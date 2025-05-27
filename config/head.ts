@@ -1,6 +1,6 @@
 /* Define constants */
-// [ ] Add image here :)
-const image = "https://eggsy.xyz/icon.png"
+// [x] Add image here :)
+const image = "https://rrchs.fr/assets/images/memoji.png"
 const description =
   "Romain ROCHAS - Business School student passionate about technologies and entrepreneurship. Curious."
 
@@ -71,7 +71,7 @@ const head = {
     {
       rel: "icon",
       type: "image/x-icon",
-      href: "https://eggsy.xyz/assets/icons/icon.ico",
+      href: "https://rrchs.fr/assets/icons/icon.ico",
     },
   ],
 }
