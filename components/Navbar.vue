@@ -21,12 +21,13 @@ const getTargetLink = computed(() => {
       <div class="flex items-center gap-6 justify-between">
         <SmartLink
           :href="getTargetLink"
-          class="flex-shrink-0 h-10 w-10 flex items-center space-x-4"
+          class="flex-shrink-0 h-10 w-17 flex items-center space-x-4"
         >
           <SmartImage
-            src="/assets/icons/icon.svg"
-            class="rounded-md bg-gray-100 ring-black transition-transform ring-2 ring-opacity-5 sm:transform hover:-rotate-6 flex-shrink-0 h-10 w-10"
+            src="/assets/images/memoji.png"
+            class="rounded-md ring-black transition-transform ring-2 ring-opacity-5 sm:transform hover:-rotate-6 flex-shrink-0 h-10 w-10"
           />
+          <h1 class="text-lg text-gray-300 font-bold">Romain ROCHAS</h1>
 
           <Transition name="fade" mode="out-in">
             <span
