@@ -75,13 +75,13 @@ useHead({
             >
               Hi, I am
               <span
-                class="text-black/60 select-none dark:text-white/60 transition-colors bg-zinc-200 dark:bg-zinc-800 rounded-full align-middle py-2.5 pl-3 pr-4 gap-1 inline-flex items-center w-max font-medium"
+                class="text-black/80 select-none dark:text-white/90 transition-colors bg-zinc-200 dark:bg-zinc-800 rounded-full align-middle py-2.5 pl-3 pr-4 gap-1 inline-flex items-center w-max font-medium"
               >
-                <SmartImage
+                <!-- <SmartImage
                   src="/assets/images/memoji.png"
                   class="object-cover h-7 w-7"
-                />
-                Romain</span
+                /> -->
+                Romain ROCHAS</span
               >
               a
             </h1>
