@@ -25,9 +25,9 @@ const getTargetLink = computed(() => {
         >
           <SmartImage
             src="/assets/images/memoji.png"
-            class="rounded-md ring-black transition-transform ring-2 ring-opacity-5 sm:transform hover:-rotate-6 flex-shrink-0 h-10 w-10"
+            class="rounded-md transition-transform sm:transform hover:-rotate-6 flex-shrink-0 h-12 w-12"
           />
-          <h1 class="text-lg text-gray-300 font-bold">Romain ROCHAS</h1>
+          <h1 class="text-lg dark:text-gray-300 text-black/90 font-bold">Romain ROCHAS</h1>
 
           <Transition name="fade" mode="out-in">
             <span
