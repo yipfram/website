@@ -42,7 +42,7 @@ const getReadingTime = computed(() => {
 useHead(() => {
   const title = post.value?.title
   const description =
-    post.value?.description || "Blogumda bu yazıyı okumaya davet edildin."
+    post.value?.description || "You are invited to read this post on my blog."
 
   const tags = getTags.value?.join(", ") || title
   const href = `https://eggsy.xyz${route?.path}`
@@ -78,7 +78,7 @@ useHead(() => {
         },
         {
           name: "twitter:label1",
-          content: "Tarih",
+          content: "Date",
         },
         {
           name: "twitter:data1",
@@ -86,11 +86,11 @@ useHead(() => {
         },
         {
           name: "twitter:label2",
-          content: "Okuma Süresi",
+          content: "Reading Time",
         },
         {
           name: "twitter:data2",
-          content: `${getReadingTime.value} dakika`,
+          content: `${getReadingTime.value} min`,
         },
       ],
     ),
@@ -134,7 +134,7 @@ watchEffect(async () => {
 
             <div class="flex items-center space-x-2">
               <Icon name="heroicons:eye" class="w-4 h-4" />
-              <span>{{ getReadingTime }} dakika okuma</span>
+              <span>{{ getReadingTime }} min read</span>
             </div>
           </div>
 
@@ -195,7 +195,7 @@ watchEffect(async () => {
         <div class="mt-16 space-y-10">
           <div v-if="relatedPosts && relatedPosts.length > 0" class="space-y-2">
             <h3 class="text-sm dark:text-white/30 text-black/50">
-              Benzer Gönderiler
+              Related Posts
             </h3>
 
             <div
@@ -216,7 +216,7 @@ watchEffect(async () => {
 
           <div class="space-y-2">
             <h3 class="text-sm dark:text-white/30 text-black/50">
-              Okumaya Devam Et
+              Continue Reading
             </h3>
 
             <BlogPrevNext :path="post.path" />

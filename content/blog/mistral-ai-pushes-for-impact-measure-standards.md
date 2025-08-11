@@ -1,16 +1,17 @@
 ---
-title: "Raycast: Geliştiriciler İçin Üretkenlik Aracı"
-description: Mac kullanıcıları ve özellikle geliştiriciler için Spotlight'ınızın yerini alacak ve her işleminizi hızlandıracak bir alternatif olan Raycast ile işlerinizi kolaylaştırın.
-header: https://i.imgur.com/qbcWt2X.jpg
+title: "Mistral AI pushes for a common environmental genai assesment"
+description: MistralAi is the first company to do an audit of its environmental footprint. This first step is accompanied with a claim:\ This assesment should be the norm, and genai companies should lead it 
+header: https://imgur.com/3J7QXAJ
 tags:
-  - yazılım
-  - üretkenlik
-  - mac
-  - araçlar
-createdAt: 01/19/2022
-related:
-  - must-ne-izlediginizi-bilin
-  - premid-nasil-kullanilir
+  - Mistral
+  - Genai
+  - environment
+  - csr
+  - impact
+createdAt: 12/08/2025
+# related:
+#   - must-ne-izlediginizi-bilin
+#   - premid-nasil-kullanilir
 ---
 
 Raycast, **Mac'iniz** için hızlı, özelleştirilebilen, birçok görevi yerine getirebilen, hesaplamalar yapabilen ve işlerinizi kolaylaştırmak için tasarlanmış eklentiler ile genişletilebilen ekosisteme sahip bir araçtır. Bu araç, macOS'de yüklü gelen [Spotlight](https://developer.apple.com/design/human-interface-guidelines/macos/system-capabilities/search-and-spotlight/) aracının yerini almak için, Spotlight'ın yaptığı şeylere ek olarak birçok farklı şey yapabilen bir araçtır.

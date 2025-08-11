@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const { $prepareMeta } = useNuxtApp()
 
-const formatter = new Intl.DateTimeFormat("tr-TR", {
+const formatter = new Intl.DateTimeFormat("en-US", {
   month: "short",
   day: "numeric",
 })
