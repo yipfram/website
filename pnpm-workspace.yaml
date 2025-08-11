@@ -4,3 +4,12 @@ onlyBuiltDependencies:
   - core-js
   - esbuild
   - sharp
+
+packages:
+  - components/*
+  - pages/*
+  - plugins/*
+  - hooks/*
+  - netlify/functions/*
+  - assets/*
+  - types/*
