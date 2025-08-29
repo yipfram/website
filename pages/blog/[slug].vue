@@ -46,7 +46,7 @@ useHead(() => {
 
   const tags = getTags.value?.join(", ") || title
   const href = `https://rrchs.fr${route?.path}`
-  const image = `https://rrchs.fr/og-images/${post.value?._path?.split("/")[2]}.png`
+  const image = `https://rrchs.fr/og-images/${post.value?._path?.split("/")[2] || route.path?.split("/")[2] || 'default'}.png`
 
   return {
     bodyAttrs: {
@@ -185,7 +185,7 @@ watchEffect(async () => {
         <DisqusComments
           v-if="!$config.public.isDev"
           :title="post.title"
-          :slug="post.path.split('/')[2]"
+          :slug="(post.path || post._path)?.split('/')[2] || 'unknown'"
           :url="`https://rrchs.fr/${post.path}`"
           :identifier="post.path"
           lang="tr"
