@@ -63,29 +63,27 @@ export default defineNuxtConfig({
   ],
 
   content: {
-    build: {
-      markdown: {
-        highlight: {
-          themes: ["vitesse-dark", "vitesse-light"],
-          theme: {
-            default: "vitesse-dark",
-            light: "vitesse-light",
-            dark: "vitesse-dark",
-          },
-        },
-        toc: {
-          depth: 5,
-        },
-        rehypePlugins: {
-          "rehype-external-links": {
-            target: "_blank",
-            rel: "noreferrer noopener",
-          },
-          "rehype-autolink-headings": {
-            behavior: "append",
-          },
-        },
+    highlight: {
+      theme: {
+        default: "github-dark",
+        dark: "github-dark",
+        light: "github-light",
       },
+      preload: ["javascript", "typescript", "vue", "css", "html", "json", "bash", "yaml"],
+    },
+    markdown: {
+      toc: {
+        depth: 5,
+      },
+      rehypePlugins: [
+        ["rehype-external-links", {
+          target: "_blank",
+          rel: "noreferrer noopener",
+        }],
+        ["rehype-autolink-headings", {
+          behavior: "append",
+        }],
+      ],
     },
   },
 
