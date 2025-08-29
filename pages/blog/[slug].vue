@@ -8,22 +8,22 @@ const {
   status,
   error,
 } = await useLazyAsyncData(route.path, () =>
-  queryCollection("posts").path(route.path).first(),
+  queryContent(route.path).findOne(),
 )
 
 const { data: relatedPosts } = await useLazyAsyncData(
   `${route.path}-related`,
   async () => {
-    if (!post.value) return
+    if (!post.value?.related?.length) return []
 
-    return queryCollection("posts")
-      .where(
-        "path",
-        "IN",
-        post.value?.related.map((path) => `/blog/${path}`),
-      )
-      .select("title", "path")
-      .all()
+    const relatedSlugs = post.value.related
+    const allPosts = await queryContent('/blog')
+      .only(['title', '_path'])
+      .find()
+
+    return allPosts.filter(p =>
+      relatedSlugs.some(slug => p._path.endsWith(slug))
+    )
   },
   {
     watch: [post],
@@ -45,8 +45,8 @@ useHead(() => {
     post.value?.description || "You are invited to read this post on my blog."
 
   const tags = getTags.value?.join(", ") || title
-  const href = `https://eggsy.xyz${route?.path}`
-  const image = `https://eggsy.xyz/og-images/${post.value?.path.split("/")[2]}.png`
+  const href = `https://rrchs.fr${route?.path}`
+  const image = `https://rrchs.fr/og-images/${post.value?._path?.split("/")[2]}.png`
 
   return {
     bodyAttrs: {
@@ -205,7 +205,7 @@ watchEffect(async () => {
               <NuxtLink
                 v-for="(relatedPost, index) in relatedPosts"
                 :key="`related-${index}`"
-                :to="relatedPost.path"
+                :to="relatedPost._path"
                 class="rounded-lg border-[0.1px] p-4 bg-neutral-300 bg-opacity-25 border-neutral-200 flex items-center space-x-2 transition-colors hover:bg-opacity-40 dark:bg-neutral-800/30 dark:border-neutral-800 dark:text-white/80 dark:hover:text-white"
               >
                 <Icon name="mdi:document" class="w-4 h-4" />

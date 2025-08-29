@@ -6,12 +6,18 @@ const formatter = new Intl.DateTimeFormat("en-US", {
   day: "numeric",
 })
 
-const { data: posts, status } = await useLazyAsyncData("posts", () =>
-  queryCollection("posts")
-    .select("title", "createdAt", "path")
-    .order("createdAt", "DESC")
-    .all(),
-)
+const { data: posts, status } = await useLazyAsyncData("posts", async () => {
+  const result = await queryContent('/blog')
+    .only(['title', 'createdAt', '_path'])
+    .sort({ createdAt: -1 })
+    .find()
+
+  return result.map(post => ({
+    title: post.title,
+    createdAt: post.createdAt,
+    path: post._path
+  }))
+})
 
 useHead({
   title: "Blog",

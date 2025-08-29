@@ -10,7 +10,10 @@ tags:
   - LLM
   - carbon-footprint
   - green-tech
-createdAt: 2025-08-29
+createdAt: 2024-08-29
+related: []
+special: false
+indicatorsHidden: false
 ---
 
 In a groundbreaking move toward sustainable AI development, **Mistral AI** has become the first company to conduct a comprehensive environmental audit of its large language models (LLMs). This pioneering initiative, conducted in collaboration with **Carbone 4** and supported by the **French Ecological Transition Agency (ADEME)**, represents a crucial step toward establishing global environmental standards for artificial intelligence.
