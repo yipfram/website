@@ -78,12 +78,12 @@ useHead(() => {
       description,
       image,
       keywords: "premid, custom, status",
-      url: "https://eggsy.xyz/projects/premid/custom-status",
+      url: "https://rrchs.fr/projects/premid/custom-status",
     }),
     link: [
       {
         rel: "canonical",
-        href: "https://eggsy.xyz/projects/premid/custom-status",
+        href: "https://rrchs.fr/projects/premid/custom-status",
       },
       {
         rel: "prefetch",
@@ -532,7 +532,7 @@ const setupMutationObserver = () => {
                 v-model="presence.buttons[0].url"
                 type="text"
                 class="w-full"
-                placeholder="https://eggsy.xyz"
+                placeholder="https://rrchs.fr"
               />
             </div>
 

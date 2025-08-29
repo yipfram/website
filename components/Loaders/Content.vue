@@ -76,17 +76,15 @@ withDefaults(defineProps<Props>(), {
 
   <div v-else class="space-y-6 pt-14">
     <h1 class="font-semibold text-2xl text-black/90 dark:text-white/90">
-      Gönderi yüklenemedi.
+      Post could not be loaded.
     </h1>
 
     <p class="text-black/50 dark:text-white/30">
-      Aradığınız gönderinin blogumda olduğuna, adreste bir yanlışlık olmadığına
-      emin olun. Arama özelliğini kullanarak gönderiyi aratabilir, anasayfaya
-      dönerek diğer gönderilerime ulaşabilirsiniz.
+      Please make sure that the post you are looking for exists on my blog and that there are no errors in the address. You can search for the post using the search feature or return to the homepage to access my other posts.
     </p>
 
     <Button icon="heroicons:chevron-left" @click.native="$router.back()"
-      >Geri Dön</Button
+      >Go Back</Button
     >
   </div>
 </template>

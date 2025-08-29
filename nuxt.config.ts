@@ -50,7 +50,7 @@ export default defineNuxtConfig({
     [
       "nuxt-disqus",
       {
-        shortname: "eggsy-xyz",
+        shortname: "rrchs",
       },
     ],
     [
@@ -89,18 +89,18 @@ export default defineNuxtConfig({
 
   sitemap: {
     exclude: ["/api/content/posts/database.sql"],
-    urls: getBlogPosts().map((post) => `https://eggsy.xyz/blog/${post.slug}`),
+    urls: getBlogPosts().map((post) => `https://rrchs.fr/blog/${post.slug}`),
   },
 
   site: {
-    url: "https://eggsy.xyz",
-    name: "eggsy.xyz",
+    url: "https://rrchs.fr",
+    name: "rrchs.fr",
   },
 
   pwa: {
     manifest: {
-      name: "eggsy.xyz",
-      short_name: "eggsy.xyz",
+      name: "rrchs.fr",
+      short_name: "rrchs.fr",
       theme_color: "#f56565",
       description:
         "Professional JavaScript developer from Turkey specializing in React.js, Vue.js, TypeScript, Node.js, and Flutter. Passionate about crafting innovative software solutions and continuously improving programming skills.",

@@ -39,12 +39,12 @@ useHead(() => {
       description,
       image,
       keywords: "premid, custom, status",
-      url: "https://eggsy.xyz/projects/premid",
+      url: "https://rrchs.fr/projects/premid",
     }),
     link: [
       {
         rel: "canonical",
-        href: "https://eggsy.xyz/projects/premid",
+        href: "https://rrchs.fr/projects/premid",
       },
     ],
   }

@@ -81,7 +81,7 @@ onBeforeUnmount(() => {
       v-show="isElementVisible"
       v-tippy="{
         content:
-          getPercentLeftBottom === 100 ? 'Tüm yazı okundu!' : 'Okuma oranı',
+          getPercentLeftBottom === 100 ? 'Article fully read!' : 'Reading progress',
       }"
     >
       <div

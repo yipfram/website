@@ -2,13 +2,11 @@
 const route = useRoute()
 
 /**
- * Returns localized GitHub notice string in Turkish/English according to current route.
+ * Returns GitHub notice string.
  * @returns {string}
  */
 const getLocalizedNotice = computed((): string => {
-  if (route.name?.includes("blog"))
-    return "Bu site GitHub üzerinde açık kaynak olarak paylaşılmıştır."
-  else return "This website is open-source on GitHub"
+  return "This website is open-source on GitHub"
 })
 </script>
 

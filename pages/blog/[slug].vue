@@ -64,7 +64,7 @@ useHead(() => {
         title,
         description,
         image,
-        keywords: `${tags}, eggsy blog, blog, teknoloji, vue, yazılım, discord, eggsys`,
+        keywords: `${tags}, rrchs blog, blog, vue, discord, rrchs`,
         url: href,
       },
       [
@@ -186,7 +186,7 @@ watchEffect(async () => {
           v-if="!$config.public.isDev"
           :title="post.title"
           :slug="post.path.split('/')[2]"
-          :url="`https://eggsy.xyz/${post.path}`"
+          :url="`https://rrchs.fr/${post.path}`"
           :identifier="post.path"
           lang="tr"
           class="mt-10"

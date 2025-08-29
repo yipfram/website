@@ -23,7 +23,7 @@ const share = (option: "url" | "twitter" | "telegram" | "whatsapp") => {
     if (!el) {
       el = document.createElement("input")
 
-      el.value = props.path ? `https://eggsy.xyz${props.path}` : location.href
+      el.value = props.path ? `https://rrchs.fr${props.path}` : location.href
       document.body.appendChild(el)
 
       el.select()
@@ -97,7 +97,7 @@ const share = (option: "url" | "twitter" | "telegram" | "whatsapp") => {
     <input
       ref="shareUrlRef"
       readonly
-      :value="`https://eggsy.xyz${path}`"
+      :value="`https://rrchs.fr${path}`"
       class="hidden"
     />
   </div>

@@ -103,7 +103,7 @@ useHead(() => {
     link: [
       {
         rel: "canonical",
-        href: "https://eggsy.xyz/projects/premid/mdcreator",
+        href: "https://rrchs.fr/projects/premid/mdcreator",
       },
     ],
     meta: $prepareMeta({
@@ -111,7 +111,7 @@ useHead(() => {
       description,
       image,
       keywords: "premid, custom, status",
-      url: "https://eggsy.xyz/projects/premid/mdcreator",
+      url: "https://rrchs.fr/projects/premid/mdcreator",
     }),
   }
 })

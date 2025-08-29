@@ -20,7 +20,7 @@ const tocToggled = ref(false)
       class="cursor-pointer flex font-medium space-x-1 transition-colors text-gray-500 items-center dark:text-dark-100 hover:text-gray-700 dark:hover:text-white/40 select-none"
       @click="tocToggled = !tocToggled"
     >
-      <h1 class="uppercase">Başlıklar</h1>
+      <h1 class="uppercase">Table of Contents</h1>
       <transition name="fade" mode="out-in">
         <Icon
           v-if="!tocToggled"

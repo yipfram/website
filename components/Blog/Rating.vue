@@ -78,7 +78,7 @@ const getPlatformInfo = computed((): Platform => {
 
       <div
         v-tippy="{
-          content: `${rating}/${max} puan`,
+          content: `${rating}/${max} points`,
           placement: 'top',
         }"
         class="rounded-md cursor-default flex font-medium bg-gray-200 flex-shrink-0 text-sm p-1 text-gray-700 w-12 items-center justify-center dark:bg-neutral-800 dark:text-gray-200 focus:outline-none"
