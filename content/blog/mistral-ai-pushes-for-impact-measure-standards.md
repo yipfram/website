@@ -1,149 +1,146 @@
 ---
-title: "Mistral AI pushes for a common environmental genai assesment"
-description: MistralAi is the first company to do an audit of its environmental footprint. This first step is accompanied with a claim:\ This assesment should be the norm, and genai companies should lead it 
+title: "Mistral AI Pushes for Global Environmental Standards in AI Development"
+description: "Mistral AI becomes the first company to conduct a comprehensive environmental audit of its AI models, setting a precedent for industry-wide environmental transparency and sustainable AI development practices."
 header: https://imgur.com/3J7QXAJ
 tags:
   - Mistral
-  - Genai
+  - AI
   - environment
-  - csr
-  - impact
-createdAt: 12/08/2025
-# related:
-#   - must-ne-izlediginizi-bilin
-#   - premid-nasil-kullanilir
+  - sustainability
+  - LLM
+  - carbon-footprint
+  - green-tech
+createdAt: 2025-08-29
 ---
 
-Raycast, **Mac'iniz** için hızlı, özelleştirilebilen, birçok görevi yerine getirebilen, hesaplamalar yapabilen ve işlerinizi kolaylaştırmak için tasarlanmış eklentiler ile genişletilebilen ekosisteme sahip bir araçtır. Bu araç, macOS'de yüklü gelen [Spotlight](https://developer.apple.com/design/human-interface-guidelines/macos/system-capabilities/search-and-spotlight/) aracının yerini almak için, Spotlight'ın yaptığı şeylere ek olarak birçok farklı şey yapabilen bir araçtır.
+In a groundbreaking move toward sustainable AI development, **Mistral AI** has become the first company to conduct a comprehensive environmental audit of its large language models (LLMs). This pioneering initiative, conducted in collaboration with **Carbone 4** and supported by the **French Ecological Transition Agency (ADEME)**, represents a crucial step toward establishing global environmental standards for artificial intelligence.
 
-Hali hazırda bir Spotlight kullanıcısıysanız, Spotlight'ın işlerinizi, dosya bulmayı, basit işlemler yapmayı ve uygulamaları açmayı ne kadar kolaylaştırdığını biliyorsunuzdur. Raycast ise bunların hepsini alıp, üzerine onlarca özellik ekleyerek, eklentiler ile geliştirilebilir bir ekosistemi sizlere sunuyuyor.
+The study, which underwent rigorous review by specialized environmental consulting firms **Resilio** and **Hubblo**, provides the AI industry's first complete lifecycle analysis of a language model's environmental footprint. This transparency initiative comes at a critical time when AI's environmental impact is under increasing scrutiny worldwide.
 
-<blog-image-container>
-  <smart-figure src="https://i.imgur.com/HSmpI2Y.png" caption="Spotlight arayüzü"></smart-figure>
-  <smart-figure src="https://i.imgur.com/duO9jUW.png" caption="Raycast arayüzü"></smart-figure>
-</blog-image-container>
+## The First Complete AI Lifecycle Analysis
 
-Raycast'in işleri nasıl kolaylaştırdığını sadece kullanarak anlayabileceğiniz için bu yazıda sadece bu uygulamanın beğendiğim ve her gün sıkça kullandığım birkaç özelliğinden bahsedeceğim. Eğer hemen indirip denemek istiyorsanız [buradan](https://www.raycast.com/) sitesine ulaşabilir ve ücretsiz olarak indirebilirsiniz.
+Mistral AI's comprehensive study examined the environmental impacts of developing and deploying large language models across three critical categories:
 
-### Hızlı ve Şık
+- **Greenhouse Gas (GHG) Emissions**: Measured in CO₂ equivalent
+- **Water Consumption**: Tracking freshwater usage throughout the process
+- **Abiotic Resource Depletion**: Measuring the consumption of non-renewable resources
 
-Raycast, native kodlar ile yazıldığı ve tamamene Mac'e ve yeni Apple işlemcisi M1 ile uyumlu olduğu için sisteminizi yormadan ve size de hızlı bir deneyim sunarak çalışır. Aynı zamanda modern ve inanılmaz şık tasarımı ile kesinlikle Mac'e yakışan bir hissiyat sağlar. Raycast, aynı sisteme gömülü bir uygulama gibi, sade, şık, hızlı ve güçlüdür.
+This methodology represents the gold standard for environmental assessment in AI, providing a framework that other companies can adopt to measure and report their own environmental impacts.
 
-<smart-figure src="https://i.imgur.com/aotDCrb.png"></smart-figure>
+### Methodology and Partnerships
 
-Spotlight'ı <kbd>⌘</kbd> <kbd>Space</kbd> kombinasyonu ile başlatırken, Raycast'i varsayılan olarak <kbd>Option</kbd> <kbd>Space</kbd> kombinasyonu ile başlatırsınız, böylece ikisini de birlikte kullanabilir, veya Raycast'in dokümanlarında bulunan "Spotlight yerine kullanma" başlığı altında nasıl Spotlight'ı kapatıp onun yerine Raycast'i kullanabileceğinizi öğrenebilir ve böylece iki farklı tuş kombinasyonu hatırlamak zorunda kalmazsınız.
+The collaboration with **Carbone 4**, a leading carbon accounting firm, and the support from **ADEME** ensures the study meets the highest standards of environmental assessment. The additional review by Resilio and Hubblo, specialists in digital sector environmental audits, adds credibility and ensures accuracy in the findings.
 
-## Özellikler
+This multi-stakeholder approach demonstrates Mistral AI's commitment to transparency and sets a precedent for how the AI industry should approach environmental accountability.
 
-Raycast'de Spotlight'da olduğu gibi **dosya arama**, önizlemelerini gösterme, **uygulama arama ve başlatma**, **internet üzerinde arama**, **kelime anlamı-sözlük** gibi özelliklerinin yanı sıra aşağıda listeleyeceğim özellikler de mevcuttur.
+## Key Environmental Impact Findings
 
-Raycast'in içerisinde, **yukarıdakiler dışında** yüklü olarak gelen özelliklerden bazıları, **Kopyalanan Öğeler**, **Pencere Yönetimi**, **Yarı-Gelişmiş Takvim**, **Hatırlatıcılar**, **Pratik Bağlantılar**, **Gelişmiş Hesaplamalar**, **Bloklar**, **Sistem Araçları**, **Script Komutları**, ve sayamadığım, [kendi sayfalarındaki](https://www.notion.so/Raycast-Manual-d5c85a7694dc4e4088b8b93557ea6d2d) geriye kalan özellikler bulunuyor.
+The study revealed significant environmental costs associated with AI model development and deployment. For **Mistral Large 2**, trained in January 2025, the results show:
 
-### Kopyalanan Öğeler
+### Training Phase Impact
+- **GHG Emissions**: 20.4 kilotons of CO₂ equivalent
+- **Water Consumption**: 281,000 cubic meters
+- **Resource Depletion**: 660 kilograms antimony equivalent
 
-Kopyalanan öğeler, daha önce herhangi bir uygulamadan kopyaladığınız yazı, metin, renk kodları, resim ve bağlantı gibi şeylerin kaydını tutan, istediğiniz zaman Raycast'i açıp arama yerinden veya ayarlardan bir tuş atayarak açabileceğiniz bir eklentidir.
+### Inference Phase Impact
+For a single 400-token response from "Le Chat" AI assistant:
+- **GHG Emissions**: 1.14 grams of CO₂ equivalent
+- **Water Consumption**: 45 milliliters
+- **Resource Depletion**: 0.16 milligrams antimony equivalent
 
-<smart-figure src="https://i.imgur.com/5AH9feA.jpg"></smart-figure>
+These figures illustrate the massive computational power required for AI development, often utilizing processors located in regions with high-carbon electricity grids and water stress. The data includes upstream emissions such as those from server manufacturing, providing a complete picture of AI's environmental footprint.
 
-Yukarıda gördüğünüz ekran görüntüsündeki gibi, sadece kopyalanan içeriği değil, aynı zamanda kaç kere kopyalandığını, en son ne zaman kopyalandığını görebilir, tekrar panoya kopyalayabilir, bir _blok_ olarak kaydedebilir veya tarayıcıda açabilirsiniz.
+## Understanding the Scale of AI's Environmental Impact
 
-### Pencere Yönetimi
+The study reveals a critical relationship between model size and environmental impact. **Models ten times larger generate an order of magnitude greater environmental impact** for the same quantity of generated tokens. This finding has profound implications for AI development strategies and user choices.
 
-Neredeyse her Mac kullanıcısının işletim sisteminin zayıf pencere yönetim seçenekleri olmasından dolayı yüklediği ek uygulamaların da yerini alabilen Raycast, bu alanda da güzel bir araç sunuyor.
+### Three Essential Indicators
 
-<smart-figure src="https://i.imgur.com/yMc8yCZ.jpg"></smart-figure>
+Mistral AI emphasizes three crucial metrics for understanding LLM environmental impacts:
 
-Bu özelliği her ne kadar kullanmasam da büyük veya ikinci bir monitöre sahip olan kullanıcılar için önemli olduğunu ve Raycast üzerinden bu seçeneklere kısayol atayarak bu işlemleri kolaylaştırılabileceğini biliyorum. Bu özellik hakkında daha fazla bilgi ve özelliğin çalışırken haldeki videosunu görmek isterseniz [buradan](https://www.notion.so/Window-Management-30b5f3e5210e43ebb63969cfc8cda717) resmi sitedeki sayfaya ulaşabilirsiniz.
+1. **Absolute impacts from model training**: The one-time environmental cost of creating the model
+2. **Marginal impacts from inference**: The environmental cost per query or interaction
+3. **Ratio between total inference impact and complete lifecycle impact**: Understanding the ongoing vs. upfront environmental costs
 
-### Yarı-Gelişmiş Takvim
+This framework provides a comprehensive approach to evaluating AI's environmental footprint and guides decision-making for both developers and users.
 
-Raycast, bu eklentisinde, yarı gelişmiş olarak belirtsem dahi ve her ne kadar sizlere inanılmaz bir takvim deneyimi sunmasada, bir takvimden veya hatırlatıcıdan beklediğiniz her şeyi sunuyor. Gelecek olan planınızı, sonraki günlerdeki planlarınızı, yaklaşan etkinlikleri görebilir ve katılım sağlanabilen etkinliklere direkt olarak komut menüsünden katılabilirsiniz.
+## Toward Global Environmental Standards for AI
 
-<smart-figure src="https://i.imgur.com/i3OEAvD.jpg"></smart-figure>
+The study's most significant contribution may be its call for **industry-wide standardization of environmental reporting**. Mistral AI recommends that AI companies publish their models' environmental impacts using internationally recognized, standardized frameworks.
 
-Zoom sınıflarına girmek, arkadaşlarımın doğum tarihlerini kaçırmamak için sürekli elimin altında böyle bir şey olması işlerimi çok kolaylaştırıyor. Aynı zamanda buna tuş kombinasyonu veya kelime kısayolu ekleyerek de çalıştırabilirsiniz.
+### Recommended Industry Practices
 
-### Hatırlatıcılar
+**For AI Companies:**
+- Publish comprehensive environmental impact data using standardized methodologies
+- Develop AI-specific standards that account for sector particularities
+- Create transparency systems enabling environmental comparison between models
+- Implement carbon, water, and resource efficiency ratings for models
 
-Mac üzerindeki uygulamasının yanı sıra, benim Raycast üzerindeki halini daha çok beğendiğim, hızlı, pratik ve kolay bir arayüzle hatırlatıcılarınızı düzenlemenizi sağlayan bu eklenti ile de iCloud'daki hatırlatıcılarınızı düzenleyebilirsiniz.
+**For Users and Organizations:**
+- Choose model sizes appropriate to actual needs
+- Group queries to minimize unnecessary computations
+- Prefer short, targeted responses over lengthy outputs
+- Develop AI literacy to optimize usage patterns
 
-<smart-figure src="https://i.imgur.com/cOroLFv.jpg"></smart-figure>
+**For Public Institutions:**
+- Integrate model size and efficiency into procurement criteria
+- Send strong market signals prioritizing environmental performance
+- Support the development of industry-wide environmental standards
 
-Sağ altta gördüğünüz açılabilir komut penceresi Raycast'deki tüm eklentilerin kontrol kısmıdır. Bu kısımda bulunduğunuz eklentinin veya sayfanın komutlarını görebilir, <kbd>⌘</kbd> <kbd>K</kbd> ile bu paneli hızlıca açıp komutların kısayollarını görebilir veya listeden seçebilirsiniz.
+## Environmental Efficiency in Practice
 
-### Pratik Bağlantılar
+The research demonstrates that **choosing the right model for specific tasks** can significantly reduce environmental impact. Users don't always need the largest, most powerful models for every application.
 
-Bu eklenti ile sevdiğiniz servislere veya sitelere hızlı bağlantılar oluşturabilir, oluşturduğunuz bağlantılarda Raycast üzerinden gireceğiniz parametreleri kullanabilir ve otomatik sistemler oluşturabilirsiniz.
+### Best Practices for Sustainable AI Use
 
-<smart-figure src="https://i.imgur.com/RIfRzvJ.jpg"></smart-figure>
+**Optimize Usage Patterns:**
+- Use smaller models for simpler tasks
+- Batch similar queries together
+- Request concise responses when appropriate
+- Develop understanding of AI capabilities to avoid overuse
 
-Bu konu hakkında da daha fazla bilgi ve Çeviri için oluşturulmuş hızlı bağlantı örneği için resmi sitedeki [bu sayfaya](https://www.notion.so/Quicklinks-8cc9c64a077a440189858c074492e8d8) göz atabilirsiniz.
+**Strategic Model Selection:**
+- Match model complexity to task requirements
+- Consider environmental impact in model choice
+- Prioritize efficiency over raw performance when possible
 
-### Gelişmiş Hesaplamalar
+## Implications for the AI Industry
 
-Sadece matematik işlemleri yapmak yerine, tarihler arası fark hesaplama, döviz çevirme, başka şehirlerin-ülkelerin saatlerini gösterme, yüzde hesaplama gibi şeyler yapabilen Raycast'in hesap makinesi algoritmasını kullanarak bunların hiçbiri için tarayıcınızı açmanıza ihtiyaç kalmayacak.
+Mistral AI's initiative establishes several important precedents:
 
-<blog-image-container>
-  <smart-figure src="https://i.imgur.com/qYXULbz.jpg"></smart-figure>
-  <smart-figure src="https://i.imgur.com/pPdMi9h.jpg"></smart-figure>
-</blog-image-container>
+### Transparency as Competitive Advantage
+By publishing detailed environmental data, Mistral AI demonstrates that transparency can be a differentiator rather than a liability. This approach may encourage other companies to follow suit, creating positive industry momentum.
 
-Bu ve bunun gibi birçok çevirmeyi yapabilen, harika bir mekanizmaya sahip olan bu hesaplayıcının en çok kullandığım özelliği tarih hesaplama ve döviz çeviricidir. Tam listeye resmi sitedeki [bu sayfadan](https://www.notion.so/Calculator-8bf30191faa24f43b4363cbf1d00c01b) ulaşabilirsiniz.
+### Framework for Regulation
+The study provides regulators with concrete data and methodologies for developing environmental standards for AI. This could accelerate the creation of mandatory environmental reporting requirements.
 
-### Bloklar
+### Innovation Incentives
+Public environmental data creates market incentives for developing more efficient AI models and training methods, driving innovation in sustainable AI development.
 
-Snippets olarak geçen bu özelliğin amacı, önceden ekleyeceğiniz notları, parçaları, yani blokları kaydedip, daha sonra Raycast üzerinden hızlıca erişmenize olanak sağlamaktır. Aynı zamanda bu bloklara kısayol atayarak o kısayolu Mac'inizde herhangi bir yere yazdığınızda Raycast'den ayarladığınız şeyin gözükmesini sağlayabilirsiniz, buna örnek olarak `@` yazıldığında mail adresinizi yazmasını, `!site` yazdığınızda ise sitenizin bağlantısının çıkmasını sağlamak gibi şeyler yapabilirsiniz.
+## The Road to Sustainable AI
 
-<smart-figure src="https://i.imgur.com/Pz91ghE.jpg"></smart-figure>
+The study represents more than just environmental accounting—it's a roadmap for sustainable AI development. By establishing clear metrics and calling for industry-wide standards, Mistral AI is pushing the entire sector toward greater environmental responsibility.
 
-Bunların yanı sıra, bloklarınızın sayısı arttıkça aradığınız bloğu bulmanızı kolaylaştıracak bir arama kutusu, en sık kullandığınız notları sabitleme özelliği ile de aradığınız şeyi kolayca bulabilirsiniz.
+### Future Implications
 
-### Sistem Araçları
+**Short-term Impact:**
+- Increased industry awareness of AI's environmental costs
+- Pressure on other companies to conduct similar assessments
+- Development of best practices for sustainable AI use
 
-Sistemi yeniden baslatmak ve ses seviyesini değiştirmekten, Bluetooth, Wifi ve bunlar gibi diğer sistem seçeneklerini değiştirmeye, kolay ve hızlıca ulaşmanızı sağlayan bu araçlar ile Raycast'den çıkmadan direkt olarak sistem ayarlarınıza düzenleyebilirsiniz.
+**Long-term Vision:**
+- Industry-wide adoption of environmental standards
+- Integration of environmental costs into AI development decisions
+- Creation of more efficient, sustainable AI technologies
 
-<smart-figure src="https://i.imgur.com/XI3Lkhx.png"></smart-figure>
+## Conclusion: Leading the Charge for Responsible AI
 
-Aynı zamanda bunlara yine Raycast ayarlarından kısayollar atayarak tek bir tuşla çöp kutunuzu boşaltabilir, tüm diskleri çıkartabilir, veya bilgisayarınızı uyku moduna alabilirsiniz. Bu konuda bir video ve daha fazla ayrıntıyı resmi sitedeki [bu sayfadan](https://www.notion.so/System-7a0992575e5143ad9a92822391f43f00) bulabilirsiniz.
+Mistral AI's comprehensive environmental assessment marks a pivotal moment in the AI industry's evolution toward sustainability. By combining rigorous scientific methodology with a clear call for industry-wide standards, the company has established itself as a leader in responsible AI development.
 
-### Script Komutları
+The study's findings underscore the urgent need for **environmental consciousness in AI development and deployment**. As AI continues to transform industries and society, ensuring its sustainable development becomes not just an environmental imperative but a business necessity.
 
-Bu araç ile normal kullanıcılardan ziyade geliştiriciler, yazdıkları scriptleri Raycast'e ekleyerek menüden seçebilir, parametrelere ulaşabilir ve bu parametreleri kullanarak scriptleri ile Raycast'e çıktı verip birçok farklı şey yapabilirler.
+This initiative demonstrates that **transparency and environmental responsibility can coexist with innovation and competitive advantage**. As more companies follow Mistral AI's lead, the industry moves closer to a future where powerful AI technologies contribute to rather than detract from global sustainability goals.
 
-<smart-figure src="https://i.imgur.com/rJuW4iT.gif"></smart-figure>
+The path forward requires continued collaboration between AI companies, environmental experts, regulators, and users. Mistral AI has provided the framework—now the industry must build upon it to ensure AI's transformative power serves both human progress and planetary health.
 
-Raycast'in resmi sitesinde de belirtildiği gibi bu komutun kullanım alanları tamamen sizin hayal gücünüze bağlıdır, yaptığınız script komutlarını göstererek birçok şeyi kolaylaştırabilirsiniz, tek tuşla gizli dosyaları göstermeye ayarlayabilir, tekrar tek bir tuşla evinizdeki akıllı ışıkları kapatabilir ve böyle birçok işlem gerçekleştirebilirsiniz.
-
-## Mağaza
-
-Sadece bu kadar özelliği olduğunu düşündüyseniz, yanıldınız, şimdiden bu yazı oldukça uzun oldu fakat Raycast'i anlatırken Raycast Mağazasını anlatmadan geçemezdim. Bu mağaza, basitçe, **açık-kaynak**, geliştiricilerin hazırladığı eklentilerin olduğu bir mağazadır. Raycast'in içerisinde gelen gömülü özelliklerin yanı sıra Raycast geliştiricilerinin hazırladığı araçlar ve yöntemler ile React kullanarak bu işi bilen herkes kendi eklentisini oluştFurabilir, incelenmesi için ekibe (GitHub üzerinden) yollayabilir, onaylanır onaylanmaz tüm Raycast kullanıcılarının mağazasından ulaşılabilir bir duruma getirebilir. Bu yönteme benzer bir yöntemi biz PreMiD üzerinde de kullanıyoruz, eğer ona da bakmak isterseniz [buraya](/blog/premid-nasil-kullanilir) tıklayabilirsiniz.
-
-<smart-figure src="https://i.imgur.com/Ort4YDj.jpg"></smart-figure>
-
-Bu mağazadan, uygulamada olmayan, fakat diğer geliştiricilerin açık-kaynak olarak geliştirip paylaştığı eklentileri kolayca indirebilir, Raycast arayüzüne ekleyebilir ve hemen çalıştırabilirsiniz. Burada bulunan eklentilerin tamamı Raycast ekibi tarafından incelenip onaylandıktan sonra mağazaya eklendiği için herhangi bir sorun teşkil etmez ve tüm standartlara uyduğu kontrolü de yapıldığı için kaliteli bir şekilde çalışır.
-
-<blog-image-container>
-  <smart-figure src="https://i.imgur.com/j6jzb6E.jpg" caption="Mağaza giriş ekranı"></smart-figure>
-  <smart-figure src="https://i.imgur.com/wzwNewB.jpg" caption="Eklenti arama"></smart-figure>
-</blog-image-container>
-
-<blog-image-container>
-  <smart-figure src="https://i.imgur.com/TREkb1R.jpg" caption="Eklenti ayrıntıları"></smart-figure>
-  <smart-figure src="https://i.imgur.com/6pDRgt5.jpg" caption="Eklenti yükleme"></smart-figure>
-</blog-image-container>
-
-Sadece Raycast uygulamasından değil, aynı zamanda Raycast'in sitesindeki Mağaza kısmından da Raycast'de varolan eklentileri inceleyebilir ve site üzerinden de tek tık ile eklentiyi bilgisayarınızdaki Raycast uygulamanıza yükleyebilirsiniz. Site üzerindeki mağazaya [buradan](https://www.raycast.com/store) ulaşabilirsiniz.
-
-Mağazadaki eklentilerden benim en sevdiklerim **Bitwarden** şifre yöneticisi eklentisi, **Imgur Resim Arama** eklentisi, **Authy 2FA** eklentisi, **Google Çeviri** eklentisi ve Raycast ekibinin yaptığı **GitHub** eklentisidir. Ben de şimdiden Raycast için birkaç eklenti geliştirdim ve paylaştım. Şimdilik aklıma sadece [Must](https://www.raycast.com/eggsy/must) (film ve dizi takip uygulaması) ve [Last.fm](https://www.raycast.com/eggsy/lastfm) gelse de ileride kullanıcılara yararlı olabileceğini düşündüğüm şeyleri de eklemeye devam edeceğim.
-
-Eklenti geliştirmek, React ve basit komponentler ile yapıldığı için oldukça kolay oluyor, eğer siz de Raycast uygulamasına sahipseniz ve eklenti geliştirmeyi merak ediyorsanız, [buradan](https://developers.raycast.com/) dokümanlara ulaşabilir ve [buradan](https://www.raycast.com/eggsy) da benim Raycast profilime ulaşıp yaptığım eklentilere bakabilir, kaynağını inceleyebilirsiniz.
-
-<smart-figure src="https://i.imgur.com/eOIfx87.jpg" caption="Basit bir Raycast eklentisi kodu örneği"></smart-figure>
-
-Mağazadaki eklentilerin nasıl göründüğünü merak ediyorsanız, aşağıdaki videoda Last.fm eklentimi onaylatmak için çektiğim kullanım şeklini görebilirsiniz. Bu ve bunun gibi onlarca eklenti şimdiden Raycast mağazasında yerini almış ve kullanıcılar tarafından ücretsiz olarak kullanılmaya hazır durumda.
-
-<video src="https://user-images.githubusercontent.com/13917975/149525948-9b23ae6c-ed08-4fb7-99c5-c8376f40d59f.mov" controls></video>
-
-Videoda gördüğünüz gibi eklentiler `API tokenleri` gibi veriler isteyebilir, daha sonra bu bilgileri eklentilerinde kullanarak istekler gerçekleştirebilirler. Her eklenti böyle gereksinimler duymasa da bu sayede kullandığınız eklentiyi özelleştirebilir ve daha güçlü bir deneyim elde edebilirsiniz.
-
-Raycast bu aralar Mac'de en sevdiğim araç olmayı başardığı için bu gönderiyi yazma gereksinimi duydum. Eğer Mac'iniz varsa ve böyle bir aracın sizin için kullanışlı olabileceğini düşünüyorsanız siz de Raycast'i indirebilir ve kullanmaya başlayabilirsiniz. Raycast'in sitesine [buradan](https://www.raycast.com/) ulaşabilirsiniz. Eğer yararlı olabileceğini düşündüğünüz, eklenmesini istediğiniz bir eklenti fikri varsa, yorumlarda belirtebilirsiniz.
+For more details on Mistral AI's environmental initiative, visit their [official announcement](https://mistral.ai/fr/news/our-contribution-to-a-global-environmental-standard-for-ai).
