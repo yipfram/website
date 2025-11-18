@@ -6,11 +6,7 @@ const routeIsBlog = computed(() => {
 })
 
 const getTargetLink = computed(() => {
-  const path = route.path
-
-  if (path !== "/projects/premid" && path.startsWith("/projects/premid"))
-    return "/projects/premid"
-  else if (routeIsBlog.value && route.params?.slug) return "/blog"
+  if (routeIsBlog.value && route.params?.slug) return "/blog"
   else return "/"
 })
 </script>
