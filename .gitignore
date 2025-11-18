@@ -96,5 +96,6 @@ sw.*
 .yarn
 .netlify
 .output
+.vercel
 public/og-images
 .data
