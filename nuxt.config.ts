@@ -23,6 +23,7 @@ export default defineNuxtConfig({
   css: ["~/assets/css/main.scss"],
 
   modules: [
+    "@vercel/analytics",
     "@vite-pwa/nuxt",
     "@nuxtjs/color-mode",
     "@nuxt/icon",
