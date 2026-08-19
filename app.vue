@@ -35,9 +35,6 @@ useHead(() => {
     <!-- Go to top button -->
     <GoTop />
 
-    <!-- Sponsor Popup -->
-    <SponsorPopup />
-
     <!-- Other Components -->
     <VitePwaManifest />
     <NuxtLoadingIndicator />

@@ -17,7 +17,7 @@ const getLocalizedNotice = computed((): string => {
     <div class="responsive-screen">
       <div class="space-y-4 text-center sm:space-y-0 sm:space-x-6 sm:text-left">
         <SmartLink
-          href="https://github.com/eggsy/website"
+          href="https://github.com/yipfram/website"
           class="text-center border-b border-transparent hover:border-black/10 dark:hover:border-white/10 transition-colors"
           blank
         >

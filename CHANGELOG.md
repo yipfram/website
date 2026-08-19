@@ -1,4 +1,4 @@
-<h1 align="center">eggsy.xyz Changelog</h1>
+<h1 align="center">rrchs.fr Changelog</h1>
 
 ## ⚠️ 7.0.0
 
@@ -35,4 +35,4 @@ I've moved from Tailwind to WindiCSS for its features, gold-class support for Vu
 
 ## Initial Release
 
-Check out the [first look of this website](https://old.eggsy.xyz) by yourself and see how much I improved!
+The website has evolved significantly since its first release.

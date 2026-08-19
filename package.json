@@ -20,16 +20,6 @@
     "type": "git",
     "url": "https://github.com/yipfram/website.git"
   },
-  "funding": [
-    {
-      "type": "individual",
-      "url": "https://eggsy.xyz/donate"
-    },
-    {
-      "type": "github",
-      "url": "https://github.com/sponsors/eggsy"
-    }
-  ],
   "scripts": {
     "dev": "nuxi dev",
     "build": "nuxi build",

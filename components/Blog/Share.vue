@@ -41,7 +41,7 @@ const share = (option: "url" | "twitter" | "telegram" | "whatsapp") => {
 
     switch (option) {
       case "twitter":
-        url = `https://twitter.com/intent/tweet?via=eggsydev&text=${encodeURIComponent(
+        url = `https://twitter.com/intent/tweet?text=${encodeURIComponent(
           props.title + "\n" + location.href,
         )}`
         break
