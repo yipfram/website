@@ -29,18 +29,23 @@ useHead({
 
 const projects = ref<Project[]>([
   {
+    name: "Taux de bio cantines - Data for Good",
+    description: "Développement d'une carte interactive pour visualiser les taux de bio-cantines de france depuis les données de data.gouv. Participation au développement de la pipeline data (python, pandas) et typescript (nuxt, vue)",
+    image: "/assets/images/projects/taux-bio-cantines.png",
+    buttons: [
+      {
+        text: "Website",
+        link: "https://territoiresfertiles.fr/widgets/fnab-carte-bio-cantines",
+        icon: "mdi:link",
+      },
+    ],
+  },
+  {
     // client: "Japan",
     name: "Ai job artisan",
     description:
       "A simple platform to help students get past the first round of interviews. This project was a good practice at understanding how hard it is to find an innovative way to solve a problem.",
     image: "/assets/images/projects/ai-job-artisan.png",
-    buttons: [
-      {
-        text: "Website",
-        link: "https://jobs.rrchs.fr",
-        icon: "mdi:link",
-      },
-    ],
   }
 ])
 
