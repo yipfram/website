@@ -29,6 +29,23 @@ useHead({
 
 const projects = ref<Project[]>([
   {
+    name: "Scouticket",
+    description: "Application web (PWA) gratuite et open source pour envoyer simplement ses justificatifs et notes de frais à la trésorerie de son groupe scout : photo ou import du justificatif, nommage structuré automatique et envoi par e-mail, sans stockage sur le serveur. Gestion multi-groupes et multi-unités. Développé avec Next.js, TypeScript, Tailwind CSS, Better Auth et PostgreSQL.",
+    image: "/assets/images/projects/scouticket.png",
+    buttons: [
+      {
+        text: "Website",
+        link: "https://scouticket.fr",
+        icon: "mdi:link",
+      },
+      {
+        text: "Source",
+        link: "https://git.latoilescoute.net/dev/scouticket",
+        icon: "mdi:git",
+      },
+    ],
+  },
+  {
     name: "Taux de bio cantines - Data for Good",
     description: "Développement d'une carte interactive pour visualiser les taux de bio-cantines de france depuis les données de data.gouv. Participation au développement de la pipeline data (python, pandas) et typescript (nuxt, vue)",
     image: "/assets/images/projects/taux-bio-cantines.png",
