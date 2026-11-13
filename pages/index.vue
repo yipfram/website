@@ -141,6 +141,7 @@ useHead({
               { name: 'Linux', icon: 'devicon:linux' },
               { name: 'Tailwind CSS', icon: 'devicon:tailwindcss' },
               { name: 'Node.js', icon: 'devicon:nodejs' },
+              { name: 'Docker', icon: 'devicon:docker' },
             ]"
             v-tippy="{ content: item.name, placement: 'bottom' }"
             :key="`skill-icon-${item.name}`"
@@ -148,7 +149,8 @@ useHead({
             :class="{
               'h-[22px] w-[22px]': item.name === 'Node.js',
               'h-[25px] w-[25px]': ['HTML5', 'TypeScript'].includes(item.name),
-              'h-7 w-7': !['TypeScript', 'Node.js', 'HTML5'].includes(
+              'h-8 w-8': item.name === 'Docker',
+              'h-7 w-7': !['TypeScript', 'Node.js', 'HTML5', 'Docker'].includes(
                 item.name,
               ),
             }"
