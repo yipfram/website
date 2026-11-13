@@ -5,7 +5,7 @@
   "homepage": "https://rrchs.fr",
   "readme": "https://github.com/yipfram/website#readme",
   "engines": {
-    "node": ">=24"
+    "node": ">=26"
   },
   "author": {
     "name": "Romain ROCHAS",
