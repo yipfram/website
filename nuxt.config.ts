@@ -6,6 +6,12 @@ import head from "./config/head"
 // Hooks
 import { generateOgImages } from "./hooks/generateOgImages"
 import { getBlogPosts } from "./hooks/scripts/getBlogPosts"
+import { getGitLastModified } from "./hooks/scripts/getGitLastModified"
+
+const withLastmod = (loc: string, ...paths: string[]) => {
+  const lastmod = getGitLastModified(...paths)
+  return lastmod ? { loc, lastmod } : { loc }
+}
 
 export default defineNuxtConfig({
   nitro: {
@@ -100,7 +106,16 @@ export default defineNuxtConfig({
 
   sitemap: {
     exclude: ["/api/content/posts/database.sql"],
-    urls: getBlogPosts().map((post) => `https://rrchs.fr/blog/${post.slug}`),
+    // lastmod comes from the date of the last git commit touching each page's source
+    urls: [
+      withLastmod("/", "pages/index.vue"),
+      withLastmod("/projects", "pages/projects/index.vue"),
+      withLastmod("/me/contact", "pages/me/contact.vue"),
+      withLastmod("/me/repos", "pages/me/repos.vue"),
+      withLastmod("/me/songs", "pages/me/songs.vue"),
+      withLastmod("/blog", "pages/blog/index.vue", "content/blog"),
+      ...getBlogPosts().map((post) => withLastmod(`/blog/${post.slug}`, `content/blog/${post.slug}.md`)),
+    ],
   },
 
   // Nesting is only used in SCSS blocks (compiled by Sass), and Nuxt 4.6 can't
