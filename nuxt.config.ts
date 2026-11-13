@@ -7,6 +7,7 @@ import head from "./config/head"
 import { generateOgImages } from "./hooks/generateOgImages"
 import { getBlogPosts } from "./hooks/scripts/getBlogPosts"
 import { getGitLastModified } from "./hooks/scripts/getGitLastModified"
+import { projects } from "./config/projects"
 
 const withLastmod = (loc: string, ...paths: string[]) => {
   const lastmod = getGitLastModified(...paths)
@@ -109,7 +110,13 @@ export default defineNuxtConfig({
     // lastmod comes from the date of the last git commit touching each page's source
     urls: [
       withLastmod("/", "pages/index.vue"),
-      withLastmod("/projects", "pages/projects/index.vue"),
+      {
+        ...withLastmod("/projects", "pages/projects/index.vue", "config/projects.ts"),
+        // Image discovery only works on prerendered pages, so list them explicitly
+        images: projects
+          .filter((project) => project.image)
+          .map((project) => ({ loc: project.image! })),
+      },
       withLastmod("/me/contact", "pages/me/contact.vue"),
       withLastmod("/me/repos", "pages/me/repos.vue"),
       withLastmod("/me/songs", "pages/me/songs.vue"),
