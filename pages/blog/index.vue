@@ -7,15 +7,15 @@ const formatter = new Intl.DateTimeFormat("en-US", {
 })
 
 const { data: posts, status } = await useLazyAsyncData("posts", async () => {
-  const result = await queryContent('/blog')
-    .only(['title', 'createdAt', '_path'])
-    .sort({ createdAt: -1 })
-    .find()
+  const result = await queryCollection("posts")
+    .select("title", "createdAt", "path")
+    .order("createdAt", "DESC")
+    .all()
 
   return result.map(post => ({
     title: post.title,
     createdAt: post.createdAt,
-    path: post._path
+    path: post.path
   }))
 })
 

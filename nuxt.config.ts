@@ -67,27 +67,34 @@ export default defineNuxtConfig({
   ],
 
   content: {
-    highlight: {
-      theme: {
-        default: "github-dark",
-        dark: "github-dark",
-        light: "github-light",
+    experimental: { sqliteConnector: "native" },
+    build: {
+      markdown: {
+        highlight: {
+          theme: {
+            default: "github-dark",
+            dark: "github-dark",
+            light: "github-light",
+          },
+          langs: ["javascript", "typescript", "vue", "css", "html", "json", "bash", "yaml"],
+        },
+        toc: {
+          depth: 5,
+        },
+        rehypePlugins: {
+          "rehype-external-links": {
+            options: {
+              target: "_blank",
+              rel: "noreferrer noopener",
+            },
+          },
+          "rehype-autolink-headings": {
+            options: {
+              behavior: "append",
+            },
+          },
+        },
       },
-      preload: ["javascript", "typescript", "vue", "css", "html", "json", "bash", "yaml"],
-    },
-    markdown: {
-      toc: {
-        depth: 5,
-      },
-      rehypePlugins: [
-        ["rehype-external-links", {
-          target: "_blank",
-          rel: "noreferrer noopener",
-        }],
-        ["rehype-autolink-headings", {
-          behavior: "append",
-        }],
-      ],
     },
   },
 
@@ -138,5 +145,5 @@ export default defineNuxtConfig({
     },
   },
 
-  compatibilityDate: "2025-01-16",
+  compatibilityDate: "2026-11-13",
 })

@@ -8,7 +8,7 @@ const {
   status,
   error,
 } = await useLazyAsyncData(route.path, () =>
-  queryContent(route.path).findOne(),
+  queryCollection("posts").path(route.path).first(),
 )
 
 const { data: relatedPosts } = await useLazyAsyncData(
@@ -17,12 +17,12 @@ const { data: relatedPosts } = await useLazyAsyncData(
     if (!post.value?.related?.length) return []
 
     const relatedSlugs = post.value.related
-    const allPosts = await queryContent('/blog')
-      .only(['title', '_path'])
-      .find()
+    const allPosts = await queryCollection("posts")
+      .select("title", "path")
+      .all()
 
     return allPosts.filter(p =>
-      relatedSlugs.some(slug => p._path.endsWith(slug))
+      relatedSlugs.some(slug => p.path.endsWith(slug))
     )
   },
   {
@@ -46,7 +46,7 @@ useHead(() => {
 
   const tags = getTags.value?.join(", ") || title
   const href = `https://rrchs.fr${route?.path}`
-  const image = `https://rrchs.fr/og-images/${post.value?._path?.split("/")[2] || route.path?.split("/")[2] || 'default'}.png`
+  const image = `https://rrchs.fr/og-images/${post.value?.path?.split("/")[2] || route.path?.split("/")[2] || 'default'}.png`
 
   return {
     bodyAttrs: {
@@ -185,7 +185,7 @@ watchEffect(async () => {
         <DisqusComments
           v-if="!$config.public.isDev"
           :title="post.title"
-          :slug="(post.path || post._path)?.split('/')[2] || 'unknown'"
+          :slug="post.path?.split('/')[2] || 'unknown'"
           :url="`https://rrchs.fr/${post.path}`"
           :identifier="post.path"
           lang="tr"
@@ -205,7 +205,7 @@ watchEffect(async () => {
               <NuxtLink
                 v-for="(relatedPost, index) in relatedPosts"
                 :key="`related-${index}`"
-                :to="relatedPost._path"
+                :to="relatedPost.path"
                 class="rounded-lg border-[0.1px] p-4 bg-neutral-300 bg-opacity-25 border-neutral-200 flex items-center space-x-2 transition-colors hover:bg-opacity-40 dark:bg-neutral-800/30 dark:border-neutral-800 dark:text-white/80 dark:hover:text-white"
               >
                 <Icon name="mdi:document" class="w-4 h-4" />
