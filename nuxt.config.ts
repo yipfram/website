@@ -103,6 +103,14 @@ export default defineNuxtConfig({
     urls: getBlogPosts().map((post) => `https://rrchs.fr/blog/${post.slug}`),
   },
 
+  // Nesting is only used in SCSS blocks (compiled by Sass), and Nuxt 4.6 can't
+  // ESM-import tailwindcss v3's `tailwindcss/nesting` subpath (NUXT_B7027).
+  postcss: {
+    plugins: {
+      "tailwindcss/nesting": false,
+    },
+  },
+
   site: {
     url: "https://rrchs.fr",
     name: "rrchs.fr",
